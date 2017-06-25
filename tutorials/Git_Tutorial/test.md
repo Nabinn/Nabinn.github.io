@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 title: Soccer
 subtitle: Best sport ever!
+comments: true
 ---
 
 From Wikipedia:
