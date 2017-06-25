@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: (under construction)
+show-avatar: true
 ---
 
 My name Nabin. I am from Nepal.
