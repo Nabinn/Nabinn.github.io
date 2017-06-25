@@ -5,7 +5,8 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #404040;
+  /*color: #404040;*/
+  color:#E0FFFF;
   position: relative;
   background: #FFF;
 }
