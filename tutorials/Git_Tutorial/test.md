@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Soccer
 subtitle: Best sport ever!
 ---
