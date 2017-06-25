@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: -------------
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name Nabin. I am from Nepal.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Currently, I am a graduate student of Computer Sciece at Lamar University in Beaumont, Texas, US. I am working as a Research Assistant in Computer Vision and Pattern Recognition (CVPR) Lab in the Department of Computer Science at Lamar University.
+- I have completed Bachelor of Engineering (Electronics & Communication) from Visvesvaraya Technological University, India.
 
-What else do you need?
+- I am interested in Deep Learning, Computer Vision and Data Mining.
 
 ### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
