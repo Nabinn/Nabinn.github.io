@@ -4,6 +4,7 @@
 /*constatnt declaration (nabin)*/
 :root {
   --foucs_color_original=#0085a1;
+  --pinkish_color=ff0033;
 }
 /* --- General --- */
 
@@ -262,7 +263,7 @@ img {
 
 footer {
   padding: 30px 0;
-  background:  #ffcc00; /*#00ab6c; #F5F5F5;*/
+  background:  var(--pinkish_color); /*#00ab6c; #F5F5F5;*/
   border-top: 1 px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
