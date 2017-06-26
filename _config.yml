@@ -29,7 +29,7 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Tutorials: 
-      - Git basics: "https://nabinn.github.io/_posts/tutorials/Git_Tutorial/"
+      - Git basics: "https://nabinn.github.io/2017-06-25-index"
   Author's home: "https://nabinn.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
