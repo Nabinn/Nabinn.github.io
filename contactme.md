@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-subtitle: (under construction)
+title: Contact Me
 show-avatar: true
 ---
 <form id="contactform" method="POST">
