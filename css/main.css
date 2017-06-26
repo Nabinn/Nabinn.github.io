@@ -5,10 +5,10 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  /*color: #404040;*/
-  color:#E0FFFF;
+  color: #404040;
   position: relative;
-  background: #FFF;
+  /*background: #FFF;*/
+  background: :#E0FFFF;
 }
 p {
   line-height: 1.5;
