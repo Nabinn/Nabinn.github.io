@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Nabin Sharma Rijal
+title: Nabin
 
 # Short description of your site
 description: site currently under construction!
@@ -38,7 +38,7 @@ avatar: "/img/myavatar1.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/img/myavatar1.jpg"
+#title-img: "/img/myavatar1.jpg"
 
 # --- Footer options --- #
 
@@ -88,7 +88,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "nabinn.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "nabinn.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
