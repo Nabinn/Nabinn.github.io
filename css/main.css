@@ -1,11 +1,6 @@
 
 @import url("pygment_highlights.css");
-@import url("brandcolors.css");
-/*constatnt declaration (nabin)*/
-:root {
-  --foucs_color_original=#0085a1;
-  --pinkish_color=ff0033;
-}
+
 /* --- General --- */
 
 body {
@@ -103,7 +98,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background:   #ffcc00; /*#00ab6c; #F5F5F5;*/
+  background:   #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -263,7 +258,7 @@ img {
 
 footer {
   padding: 30px 0;
-  background:  var(--pinkish_color); /*#00ab6c; #F5F5F5;*/
+  background:  #F5F5F5;
   border-top: 1 px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
