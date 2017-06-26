@@ -119,7 +119,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: var(--foucs_color_original);/*#ff8c00;#0085a1;*/
+  color: #ff0033;/*#0085a1;*/
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -319,7 +319,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #ff8c00;/*#0085a1;*/
+  color: #ff0033;/*#0085a1;*/
 }
 
 .post-preview .post-title {
@@ -586,8 +586,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #ff8c00;/*#0085a1;*/
-  border: 1px solid #ff8c00;/*#0085a1;*/
+  background: #ff0033;/*#0085a1;*/
+  border: 1px solid #ff0033;/*#0085a1;*/
 }
 
 .pager {
