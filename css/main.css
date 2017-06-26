@@ -1,6 +1,9 @@
 
 @import url("pygment_highlights.css");
-
+@import url("brandcolors.css");
+/*constatnt declaration (nabin)*/
+:root {
+}
 /* --- General --- */
 
 body {
@@ -258,7 +261,7 @@ img {
 
 footer {
   padding: 30px 0;
-  background:  #00ab6c; /*#F5F5F5;*/
+  background:  #ffcc00; /*#00ab6c; #F5F5F5;*/
   border-top: 1 px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
