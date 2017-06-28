@@ -34,10 +34,7 @@ font-size: 24px;
 }
 </style>
 -->
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'nabin99sharma' + '@' + 'gmail' + '.' + 'com');
-</script>
+
 
 
 <div class="container">
@@ -86,3 +83,8 @@ font-size: 24px;
 
     </div>
 </div>
+
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'nabin99sharma' + '@' + 'gmail' + '.' + 'com');
+</script>
