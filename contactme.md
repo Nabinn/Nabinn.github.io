@@ -66,7 +66,7 @@ show-avatar: true
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" style="background: black">
                             Send
                        		<i class="fa fa-paper-plane" aria-hidden="true"></i>
                             </button>
