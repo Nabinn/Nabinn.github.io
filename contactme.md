@@ -18,16 +18,6 @@ show-avatar: true
 </form>
 -->
 
-<style type="text/css">
-	.btnContactUs{
-		background: black
-
-	}
-	.btnContactUs:focus{
-		background: red
-	}
-</style>
-
 
 
 
@@ -67,7 +57,7 @@ show-avatar: true
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" style="background: black; active: red;">
                             Send Message</button>
                     </div>
                 </div>
