@@ -16,24 +16,18 @@ show-avatar: true
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send">
 </form>
-
+-->
 
 <style type="text/css">
-	.jumbotron {
-background: #358CCE;
-color: #FFF;
-border-radius: 0px;
-}
-.jumbotron-sm { padding-top: 24px;
-padding-bottom: 24px; }
-.jumbotron small {
-color: #FFF;
-}
-.h1 small {
-font-size: 24px;
-}
+	.btnContactUs{
+		background: black
+
+	}
+	.btnContactUs:focus{
+		background: red
+	}
 </style>
--->
+
 
 
 
@@ -73,7 +67,7 @@ font-size: 24px;
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" style="background:black; cursor:pointer">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
                             Send Message</button>
                     </div>
                 </div>
