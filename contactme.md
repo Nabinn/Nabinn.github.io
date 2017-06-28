@@ -3,6 +3,7 @@ layout: page
 title: Contact Me
 show-avatar: true
 ---
+<!--
 <form id="contactform" method="POST">
 
 <input type="hidden" name="_next" value="thanks" />
@@ -15,12 +16,8 @@ show-avatar: true
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send">
 </form>
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'nabin99sharma' + '@' + 'gmail' + '.' + 'com');
-</script>
 
-<!--
+
 <style type="text/css">
 	.jumbotron {
 background: #358CCE;
@@ -37,19 +34,26 @@ font-size: 24px;
 }
 </style>
 -->
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'nabin99sharma' + '@' + 'gmail' + '.' + 'com');
+</script>
 
 
 <div class="container">
     <div class="row">
         <div class="col-md-8">
             <div class="well well-sm">
-                <form>
+                <form id="contactform" method="POST">
+                <input type="hidden" name="_next" value="thanks" />
+				<input type="hidden" name="_subject" value="Website contact" />
+				<input type="text" name="_gotcha" style="display:none" />
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your name" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -57,25 +61,18 @@ font-size: 24px;
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Your email" required="required" />
+
+                                </div>
                         </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">General Customer Service</option>
-                                <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
-                            </select>
-                        </div>
+                        
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Message</label>
                             <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
+                                placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
