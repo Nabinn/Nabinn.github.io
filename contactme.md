@@ -20,6 +20,7 @@ show-avatar: true
     contactform.setAttribute('action', '//formspree.io/' + 'nabin99sharma' + '@' + 'gmail' + '.' + 'com');
 </script>
 
+<!--
 <style type="text/css">
 	.jumbotron {
 background: #358CCE;
@@ -35,7 +36,7 @@ color: #FFF;
 font-size: 24px;
 }
 </style>
-
+-->
 
 
 <div class="container">
