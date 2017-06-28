@@ -38,7 +38,7 @@ avatar: "/img/myavatar1.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-#title-img: "/img/myavatar1.jpg"
+title-img: "/img/home.png"
 
 # --- Footer options --- #
 
