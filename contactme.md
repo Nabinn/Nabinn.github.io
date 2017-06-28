@@ -34,7 +34,14 @@ show-avatar: true
                         <div class="form-group">
                             <label for="name">
                                 Name</label>
+                                 <div class="input-group">
+                                 <span class="input-group-addon">
+                                
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                </span>
+
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your name" required="required" />
+                        </div>
                         </div>
                         <div class="form-group">
                             <label for="email">
