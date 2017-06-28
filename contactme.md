@@ -41,7 +41,7 @@ show-avatar: true
                                 Email Address</label>
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-envelope"></span>
+                                
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </span>
                                 <input type="email" name="_replyto" class="form-control" id="email" placeholder="Your email" required="required" />
