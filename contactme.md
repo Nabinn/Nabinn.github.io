@@ -58,8 +58,8 @@ show-avatar: true
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                            Send Message
-                            <span class="glyphicon glyphicon-send"></span>
+                            Send
+                       		<i class="fa fa-paper-plane">
                             </button>
                     </div>
                 </div>
