@@ -40,7 +40,9 @@ show-avatar: true
                             <label for="email">
                                 Email Address</label>
                             <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-envelope"></span>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </span>
                                 <input type="email" name="_replyto" class="form-control" id="email" placeholder="Your email" required="required" />
 
@@ -59,7 +61,7 @@ show-avatar: true
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
                             Send
-                       		<i class="fa fa-paper-plane"></i>
+                       		<i class="fa fa-paper-plane" aria-hidden="true"></i>
                             </button>
                     </div>
                 </div>
