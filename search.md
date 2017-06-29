@@ -19,6 +19,5 @@ search with google
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchresults-only></gcse:searchresults-only>
-
+<gcse:search></gcse:search>
 </div>
