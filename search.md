@@ -1,7 +1,6 @@
 ---
-    layout: default
+    layout: page
     title: "Search this site"
-    css: "/css/search.css"
     ---
     
     ## Search username.github.io with Google!
