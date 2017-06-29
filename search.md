@@ -4,9 +4,8 @@ title: Search
 show-avatar: true
 ---
     
-search with google
+search with google2
 <div>
-
 <script>
   (function() {
     var cx = '012709239189562225172:bhgo_xtsn4k';
