@@ -1,7 +1,8 @@
 ---
-    layout: page
-    title: "Search this site"
-    ---
+layout: page
+title: Search
+show-avatar: true
+---
     
     ## Search username.github.io with Google!
     
