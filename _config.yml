@@ -99,6 +99,9 @@ disqus: "nabinn-github-io"
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
 
+#Google custom search engine
+google_cse_id: "012709239189562225172:bhgo_xtsn4k"
+
 # Google Tag Manager ID
 #gtm: ""
 
