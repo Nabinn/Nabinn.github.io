@@ -4,9 +4,9 @@ title: Search
 show-avatar: true
 ---
     
-    ## Search username.github.io with Google!
+## Search username.github.io with Google!
     
-    <div id="google-custom-search">
+<div id="google-custom-search">
     
     <div>
 
@@ -25,7 +25,7 @@ show-avatar: true
 	
 	</gcse:search>
 
-    </div>
+</div>
     
     
     </div>
