@@ -8,7 +8,7 @@ search with google
 
 <div>
 
-    	<script>
+  <script>
   (function() {
     var cx = '012709239189562225172:bhgo_xtsn4k';
     var gcse = document.createElement('script');
@@ -19,6 +19,6 @@ search with google
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<gcse:searchresults-only></gcse:searchresults-only>
 
 </div>
