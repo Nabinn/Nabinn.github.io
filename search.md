@@ -22,7 +22,7 @@ show-avatar: true
 		  })();
 		</script>
 	<gcse:search>
-	
+		Search Me
 	</gcse:search>
 
 </div>
