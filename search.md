@@ -6,25 +6,6 @@ show-avatar: true
     
 search with google2
 <style type="text/css">
-	
-Skip to content
- 
-Search…
-All gists
-GitHub
-New gist
-@nabinn
-  Star 1
-  Fork 1
-  @brandonrosagebrandonrosage/google.css
-Created 5 years ago
-Embed  
-<script src="https://gist.github.com/brandonrosage/4409806.js"></script>
-  Download ZIP
- Code  Revisions 1  Stars 1  Forks 1
-Stylesheet intended to override Google's custom search styles on the OIC website.
-Raw
- google.css
 #cse-search-form {
    position: relative;
    -webkit-border-radius: 3px;
@@ -145,19 +126,7 @@ border-bottom-left-radius: 0px;
 
 #cse-search-form.active .gsc-search-box-tools .gsc-search-box .gsc-search-button input.gsc-search-button:hover {
 	background: #0376AE;	
-}
- @nabinn
-  
-            
- 
-Write  Preview
-
-Leave a comment
-Attach files by dragging & dropping,  Choose Files selecting them, or pasting from the clipboard.
- Styling with Markdown is supported
-Comment
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
+}	
 	
 </style>
 <div>
