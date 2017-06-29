@@ -5,7 +5,7 @@ show-avatar: true
 ---
     
 search with google
-<div id="test"></div>
+<div id="test">Search here</div>
 
 <script>
 var myCallback = function() {
