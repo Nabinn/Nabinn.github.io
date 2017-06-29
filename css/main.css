@@ -1,6 +1,5 @@
 
 @import url("highlight_themes/colorful.css");
-@import url("animate.css")
 /* --- General --- */
 
 body {
@@ -679,5 +678,7 @@ td.gutter {
 /* --- Social media sharing section --- */
 
 #social-share-section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
+
+@import url("test.css")
