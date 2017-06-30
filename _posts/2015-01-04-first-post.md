@@ -159,15 +159,5 @@ Here are some samples extracted from the dataset:
     </table>
 
 
+
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
-
-```python
-import pandas as pd
-import numpy as np
-```
-
-
-```python
-df_train=pd.read_csv('data/train.csv')
-
-```
