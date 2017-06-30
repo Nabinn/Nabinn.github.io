@@ -47,12 +47,18 @@ Here are some samples extracted from the dataset:
 <style type="text/css">
 	
 	table {
-		table-layout: auto;
-        display: block;
-        overflow: scroll;
-    }
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
 
 </style>
+<div style="overflow-x:auto;">
 <table>
   <thead>
     <tr>
@@ -143,6 +149,7 @@ Here are some samples extracted from the dataset:
     </tr>
     </tbody>
     </table>
+</div>
 </div>
 
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
