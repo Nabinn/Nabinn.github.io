@@ -42,9 +42,12 @@ Embarked        Port of Embarkation
                 ( C = Cherbourg, Q = Queenstown, S = Southampton )
 ```
 
+
+
+<div class="container" style="overflow-x:scroll;">
+
 Here are some samples extracted from the dataset:
 
-<div class="container" style="overflow-x:auto;">
 <div class="table-responsive"> 
 <table class="table table-striped">
   <thead>
