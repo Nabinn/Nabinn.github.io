@@ -118,20 +118,6 @@ margin-bottom: 1px;">
       <td>S</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
-      <td>female</td>
-      <td>35.0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>113803</td>
-      <td>53.1000</td>
-      <td>C123</td>
-      <td>S</td>
-    </tr>
-    <tr>
       <td>5</td>
       <td>0</td>
       <td>3</td>
