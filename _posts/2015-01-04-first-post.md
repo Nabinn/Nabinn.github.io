@@ -47,10 +47,10 @@ Here are some samples extracted from the dataset:
 
 <div class="container" style="overflow-x:auto; 
 width: 768px; 
-border: 12px solid #B22222;
-border-radius: 10px;
-margin-top: 15px;
-margin-bottom: 15px;">
+border: 2px solid black;
+border-radius: 5px;
+margin-top: 5px;
+margin-bottom: 5px;">
 
 <div class="table-responsive"> 
 <table class="table">
