@@ -48,8 +48,8 @@ Here are some samples extracted from the dataset:
 	
 	table {
         display: block;
-        overflow-x: auto;
-        width: 500px;
+        overflow: scroll;
+        width: auto;
     }
 
 </style>
