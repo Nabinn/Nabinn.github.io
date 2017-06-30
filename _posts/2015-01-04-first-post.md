@@ -45,7 +45,12 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 
-<div class="container" style="overflow-x:auto; max-width: 768px; display: block;">
+<div class="container" style="overflow-x:auto; 
+width: 768px; 
+border: 12px solid #B22222;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;">
 
 <div class="table-responsive"> 
 <table class="table">
