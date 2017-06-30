@@ -43,9 +43,9 @@ Embarked        Port of Embarkation
 ```
 
 Here are some samples extracted from the dataset:
-<div class="container">
+
 <style type="text/css">
-th td{
+td{
     width: 100%;
 }
 </style>
@@ -56,7 +56,7 @@ th td{
       <th>PassengerId</th>
       <th>Survived</th>
       <th>Pclass</th>
-      <th>Nameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</th>
+      <th>Name</th>
       <th>Sex</th>
       <th>Age</th>
       <th>SibSp</th>
@@ -141,6 +141,6 @@ th td{
     </tbody>
     </table>
 </div>
-</div>
+
 
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
