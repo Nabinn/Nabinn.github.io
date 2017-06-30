@@ -45,7 +45,7 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 
-<div class="container" style="overflow-x:scroll; display: block;">
+<div class="container" style="overflow-x:auto; display: block;">
 
 <div class="table-responsive"> 
 <table class="table">
