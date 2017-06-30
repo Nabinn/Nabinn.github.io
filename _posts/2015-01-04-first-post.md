@@ -1,15 +1,9 @@
 ---
 layout: post
-title: First post!
+title: Classifier to estimate the surviving chance of Titanic passengers
 image: /img/hello_world.jpeg
-tags: [random, exciting-stuff]
+tags: [machine learing, classification]
 ---
-
-## Using TFLearn and TensorFlow to estimate the surviving chance of Titanic passengers
-
-
-
-
 
 ## Overview of data
 On April 15, 1912, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class. In this tutorial, we carry an analysis to find out who these people are.
