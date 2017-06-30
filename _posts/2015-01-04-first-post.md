@@ -49,6 +49,9 @@ Here are some samples extracted from the dataset:
         display: block;
         overflow-x: auto;
     }
+  	table .absorbing-column {
+    width: 100%;
+	}
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -67,7 +70,7 @@ Here are some samples extracted from the dataset:
       <th>PassengerId</th>
       <th>Survived</th>
       <th>Pclass</th>
-      <th>Name</th>
+      <th class="absorbing-column">Name</th>
       <th>Sex</th>
       <th>Age</th>
       <th>SibSp</th>
