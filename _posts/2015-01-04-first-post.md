@@ -47,6 +47,7 @@ Here are some samples extracted from the dataset:
 <style type="text/css">
 	
 	table {
+		table-layout: auto;
         display: block;
         overflow: scroll;
     }
