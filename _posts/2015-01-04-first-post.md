@@ -44,11 +44,12 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 
+<div style="overflow-x: auto">
 | survived | pclass | name | sex | age | sibsp | parch | ticket | fare |
 | -------- | ------ | ---- | --- | --- | ----- | ----- | ------ | ---- |
 |1|1|Aubart, Mme. Leontine Pauline|female|24|0|0|PC 17477|69.3000|
 |0|2|Bowenur, Mr. Solomon|male|42|0|0|211535|13.0000|
 |1|3|Baclini, Miss. Marie Catherine|female|5|2|1|2666|19.2583|
 |0|3|Youseff, Mr. Gerious|male|45.5|0|0|2628|7.2250|
-
+</div>
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
