@@ -24,8 +24,8 @@ The test set should be used to see how well your model performs on unseen data. 
 ## Dataset
 Let's take a look at the datase. For each passenger, the following information are provided:
 ```
-VARIABLE 		DESCRIPTIONS:
-PassengerId		unique id for passengers
+VARIABLE	    DESCRIPTIONS:
+PassengerId	    unique id for passengers
 Survived        Survived
                 (0 = No; 1 = Yes)
 Pclass          Passenger Class
@@ -43,7 +43,7 @@ Embarked	    Port of Embarkation
 ```
 
 Here are some samples extracted from the dataset:
-
+```
 <table border="1" class="dataframe">
  <thead>
     <tr style="text-align: justify;">
@@ -165,7 +165,8 @@ Here are some samples extracted from the dataset:
       <td>S</td>
     </tr>
     </tbody>
- </table>   
+ </table>
+ ```   
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
 
 
