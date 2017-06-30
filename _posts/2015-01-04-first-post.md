@@ -45,7 +45,7 @@ Embarked        Port of Embarkation
 Here are some samples extracted from the dataset:
 <div class="container">
 <div class="table-responsive"> 
-<table class="table">
+<table class="table-striped">
   <thead>
     <tr>
       <th>PassengerId</th>
