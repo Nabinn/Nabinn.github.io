@@ -49,10 +49,7 @@ Here are some samples extracted from the dataset:
         display: block;
         overflow-x: auto;
     }
-  	table .absorbing-column {
-    width: 100%;
-	}
-    .dataframe thead tr:only-child th {
+  	.dataframe thead tr:only-child th {
         text-align: right;
     }
 
@@ -63,6 +60,11 @@ Here are some samples extracted from the dataset:
     .dataframe tbody tr th {
         vertical-align: top;
     }
+
+    table .absorbing-column {
+    width: 100%;
+	}
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -75,7 +77,7 @@ Here are some samples extracted from the dataset:
       <th>Age</th>
       <th>SibSp</th>
       <th>Parch</th>
-      <th>Ticket</th>
+      <th class="absorbing-column">Ticket</th>
       <th>Fare</th>
       <th>Cabin</th>
       <th>Embarked</th>
