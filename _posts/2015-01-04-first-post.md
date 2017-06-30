@@ -24,18 +24,22 @@ The test set should be used to see how well your model performs on unseen data. 
 ## Dataset
 Let's take a look at the datase. For each passenger, the following information are provided:
 ```
-VARIABLE DESCRIPTIONS:
-survived        Survived
+VARIABLE 		DESCRIPTIONS:
+PassengerId		unique id for passengers
+Survived        Survived
                 (0 = No; 1 = Yes)
-pclass          Passenger Class
+Pclass          Passenger Class
                 (1 = 1st; 2 = 2nd; 3 = 3rd)
-name            Name
-sex             Sex
-age             Age
-sibsp           Number of Siblings/Spouses Aboard
-parch           Number of Parents/Children Aboard
-ticket          Ticket Number
-fare            Passenger Fare
+Name            Name
+Sex             Sex
+Age             Age
+SibSp           Number of Siblings/Spouses Aboard
+Parch           Number of Parents/Children Aboard
+Ticket          Ticket Number
+Fare            Passenger Fare
+Cabin	        Cabin number	
+Embarked	    Port of Embarkation	
+                ( C = Cherbourg, Q = Queenstown, S = Southampton )
 ```
 
 Here are some samples extracted from the dataset:
