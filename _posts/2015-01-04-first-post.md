@@ -44,13 +44,13 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 <div class="container">
-<table class="table table-striped" style="display: block; overflow-x: auto;">
+<table class="table table-striped" style="display: block; overflow-x: auto; width: 100%;">
   <thead>
     <tr>
       <th>PassengerId</th>
       <th>Survived</th>
       <th>Pclass</th>
-      <th style="width: 100%;">Name</th>
+      <th>Name</th>
       <th>Sex</th>
       <th>Age</th>
       <th>SibSp</th>
