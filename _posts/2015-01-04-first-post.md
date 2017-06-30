@@ -44,12 +44,99 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 
-<div style="overflow-x: auto">
-| survived | pclass | name | sex | age | sibsp | parch | ticket | fare |
-| -------- | ------ | ---- | --- | --- | ----- | ----- | ------ | ---- |
-|1|1|Aubart, Mme. Leontine Pauline|female|24|0|0|PC 17477|69.3000|
-|0|2|Bowenur, Mr. Solomon|male|42|0|0|211535|13.0000|
-|1|3|Baclini, Miss. Marie Catherine|female|5|2|1|2666|19.2583|
-|0|3|Youseff, Mr. Gerious|male|45.5|0|0|2628|7.2250|
+<div class="container" style="overflow-x:auto;">
+<div class="table-responsive"> 
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>22.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>A/5 21171</td>
+      <td>7.2500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td style="width: 100%;">Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>female</td>
+      <td>38.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>PC 17599</td>
+      <td>71.2833</td>
+      <td>C85</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Heikkinen, Miss. Laina</td>
+      <td>female</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td style="width: 100%;">STON/O2. 3101282</td>
+      <td>7.9250</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>female</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113803</td>
+      <td>53.1000</td>
+      <td>C123</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Allen, Mr. William Henry</td>
+      <td>male</td>
+      <td>35.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>373450</td>
+      <td>8.0500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    </tbody>
+    </table>
 </div>
+</div>	
+
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
