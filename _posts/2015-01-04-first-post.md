@@ -48,12 +48,13 @@ Here are some samples extracted from the dataset:
 	
 	table {
     border-collapse: collapse;
-    width: 100%;
 }
 
 th, td {
     text-align: left;
     padding: 8px;
+    width: 100%;
+    height: 20px;
 }
 
 
