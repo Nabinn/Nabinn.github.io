@@ -135,6 +135,5 @@ Here are some samples extracted from the dataset:
     </tbody>
     </table>
 </div>
-</div>
 
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
