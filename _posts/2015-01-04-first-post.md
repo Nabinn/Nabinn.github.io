@@ -44,20 +44,18 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 <div class="container">
-<style type="text/css">
-	
-	table {
+<style>
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
     border-collapse: collapse;
 }
 
-th, td {
-    text-align: left;
-    padding: 8px;
+th td{
     width: 100%;
-    height: 20px;
 }
-
-
 </style>
 <div style="overflow-x:auto;">
 <table>
