@@ -43,41 +43,20 @@ Embarked        Port of Embarkation
 ```
 
 Here are some samples extracted from the dataset:
-<div>
-<style>
-  table {
-        display: block;
-        overflow-x: auto;
-    }
-  	.dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    table .absorbing-column {
-    width: 100%;
-	}
-
-</style>
-<table border="1" class="dataframe">
+<div class="container">
+<div class="table-responsive"> 
+<table class="table">
   <thead>
-    <tr style="text-align: justify;">
+    <tr>
       <th>PassengerId</th>
       <th>Survived</th>
       <th>Pclass</th>
-      <th class="absorbing-column">Name</th>
+      <th>Name</th>
       <th>Sex</th>
       <th>Age</th>
       <th>SibSp</th>
       <th>Parch</th>
-      <th class="absorbing-column">Ticket</th>
+      <th>Ticket</th>
       <th>Fare</th>
       <th>Cabin</th>
       <th>Embarked</th>
@@ -156,7 +135,7 @@ Here are some samples extracted from the dataset:
     </tr>
     </tbody>
     </table>
-
-
+</div>
+</div>
 
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
