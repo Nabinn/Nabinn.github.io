@@ -43,13 +43,12 @@ Embarked        Port of Embarkation
 ```
 
 
-
-<div class="container" style="overflow-x:scroll;">
-
 Here are some samples extracted from the dataset:
 
+<div class="container" style="overflow-x:scroll; display: block;">
+
 <div class="table-responsive"> 
-<table class="table table-striped">
+<table class="table">
   <thead>
     <tr>
       <th>PassengerId</th>
