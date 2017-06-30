@@ -24,8 +24,8 @@ The test set should be used to see how well your model performs on unseen data. 
 ## Dataset
 Let's take a look at the datase. For each passenger, the following information are provided:
 ```
-VARIABLE	    DESCRIPTIONS:
-PassengerId	    unique id for passengers
+VARIABLE        DESCRIPTIONS:
+PassengerId     Id of passenger
 Survived        Survived
                 (0 = No; 1 = Yes)
 Pclass          Passenger Class
@@ -37,22 +37,424 @@ SibSp           Number of Siblings/Spouses Aboard
 Parch           Number of Parents/Children Aboard
 Ticket          Ticket Number
 Fare            Passenger Fare
-Cabin	        Cabin number	
-Embarked	    Port of Embarkation	
+Cabin           Cabin number
+Embarked        Port of Embarkation
                 ( C = Cherbourg, Q = Queenstown, S = Southampton )
 ```
 
 Here are some samples extracted from the dataset:
-| PassengerId | Survived | Pclass | Name | Sex | Age | SibSp | Parch | Ticket | Fare | Cabin | Embarked |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0 | 3 | Braund, Mr. Owen Harris | male | 22.0 | 1 | 0 | A/5 21171 | 7.2500 | NaN | S |
-| 2 | 1 | 1 | Cumings, Mrs. John Bradley (Florence Briggs Th... | female | 38.0 | 1 | 0 | PC 17599 | 71.2833 | C85 | C |
-| 3 | 1 | 3 | Heikkinen, Miss. Laina | female | 26.0 | 0 | 0 | STON/O2\. 3101282 | 7.9250 | NaN | S |
-| 4 | 1 | 1 | Futrelle, Mrs. Jacques Heath (Lily May Peel) | female | 35.0 | 1 | 0 | 113803 | 53.1000 | C123 | S |
-| 5 | 0 | 3 | Allen, Mr. William Henry | male | 35.0 | 0 | 0 | 373450 | 8.0500 | NaN | S |
-| 6 | 0 | 3 | Moran, Mr. James | male | NaN | 0 | 0 | 330877 | 8.4583 | NaN | Q |
-| 7 | 0 | 1 | McCarthy, Mr. Timothy J | male | 54.0 | 0 | 0 | 17463 | 51.8625 | E46 | S |
-
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>
+</th>
+<th>
+PassengerId
+</th>
+<th>
+Survived
+</th>
+<th>
+Pclass
+</th>
+<th>
+Name
+</th>
+<th>
+Sex
+</th>
+<th>
+Age
+</th>
+<th>
+SibSp
+</th>
+<th>
+Parch
+</th>
+<th>
+Ticket
+</th>
+<th>
+Fare
+</th>
+<th>
+Cabin
+</th>
+<th>
+Embarked
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+0
+</th>
+<td>
+1
+</td>
+<td>
+0
+</td>
+<td>
+3
+</td>
+<td>
+Braund, Mr. Owen Harris
+</td>
+<td>
+male
+</td>
+<td>
+22.0
+</td>
+<td>
+1
+</td>
+<td>
+0
+</td>
+<td>
+A/5 21171
+</td>
+<td>
+7.2500
+</td>
+<td>
+NaN
+</td>
+<td>
+S
+</td>
+</tr>
+<tr>
+<th>
+1
+</th>
+<td>
+2
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+<td>
+Cumings, Mrs. John Bradley (Florence Briggs Th…
+</td>
+<td>
+female
+</td>
+<td>
+38.0
+</td>
+<td>
+1
+</td>
+<td>
+0
+</td>
+<td>
+PC 17599
+</td>
+<td>
+71.2833
+</td>
+<td>
+C85
+</td>
+<td>
+C
+</td>
+</tr>
+<tr>
+<th>
+2
+</th>
+<td>
+3
+</td>
+<td>
+1
+</td>
+<td>
+3
+</td>
+<td>
+Heikkinen, Miss. Laina
+</td>
+<td>
+female
+</td>
+<td>
+26.0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+STON/O2. 3101282
+</td>
+<td>
+7.9250
+</td>
+<td>
+NaN
+</td>
+<td>
+S
+</td>
+</tr>
+<tr>
+<th>
+3
+</th>
+<td>
+4
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+<td>
+Futrelle, Mrs. Jacques Heath (Lily May Peel)
+</td>
+<td>
+female
+</td>
+<td>
+35.0
+</td>
+<td>
+1
+</td>
+<td>
+0
+</td>
+<td>
+113803
+</td>
+<td>
+53.1000
+</td>
+<td>
+C123
+</td>
+<td>
+S
+</td>
+</tr>
+<tr>
+<th>
+4
+</th>
+<td>
+5
+</td>
+<td>
+0
+</td>
+<td>
+3
+</td>
+<td>
+Allen, Mr. William Henry
+</td>
+<td>
+male
+</td>
+<td>
+35.0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+373450
+</td>
+<td>
+8.0500
+</td>
+<td>
+NaN
+</td>
+<td>
+S
+</td>
+</tr>
+<tr>
+<th>
+5
+</th>
+<td>
+6
+</td>
+<td>
+0
+</td>
+<td>
+3
+</td>
+<td>
+Moran, Mr. James
+</td>
+<td>
+male
+</td>
+<td>
+NaN
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+330877
+</td>
+<td>
+8.4583
+</td>
+<td>
+NaN
+</td>
+<td>
+Q
+</td>
+</tr>
+<tr>
+<th>
+6
+</th>
+<td>
+7
+</td>
+<td>
+0
+</td>
+<td>
+1
+</td>
+<td>
+McCarthy, Mr. Timothy J
+</td>
+<td>
+male
+</td>
+<td>
+54.0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+17463
+</td>
+<td>
+51.8625
+</td>
+<td>
+E46
+</td>
+<td>
+S
+</td>
+</tr>
+<tr>
+<th>
+7
+</th>
+<td>
+8
+</td>
+<td>
+0
+</td>
+<td>
+3
+</td>
+<td>
+Palsson, Master. Gosta Leonard
+</td>
+<td>
+male
+</td>
+<td>
+2.0
+</td>
+<td>
+3
+</td>
+<td>
+1
+</td>
+<td>
+349909
+</td>
+<td>
+21.0750
+</td>
+<td>
+NaN
+</td>
+<td>
+S
+</td>
+</tr>
+<tr>
+<th>
+8
+</th>
+<td>
+9
+</td>
+<td>
+1
+</td>
+<td>
+3
+</td>
+<td>
+Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)
+</td>
+<td>
+female
+</td>
+<td>
+27.0
+</td>
+<td>
+0
+</td>
+<td>
+2
+</td>
+<td>
+347742
+</td>
+<td>
+11.1333
+</td>
+<td>
+NaN
+</td>
+<td>
+S
+</td>
 There are 2 classes in our task 'not survived' (class 0) and 'survived' (class 1), and the passengers data have 8 features.
 
 
