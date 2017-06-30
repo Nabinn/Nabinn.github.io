@@ -44,12 +44,7 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 
-<style type="text/css">
-td{
-    width: 100%;
-}
-</style>
-<div style="overflow-x:auto;">
+<div class="container" style="overflow-x:auto;">
 <table style="bordder: 1px solid black; border-collapse: collapse;">
   <thead>
     <tr>
@@ -86,7 +81,7 @@ td{
       <td>2</td>
       <td>1</td>
       <td>1</td>
-      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td style="width: 100%;">Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
       <td>female</td>
       <td>38.0</td>
       <td>1</td>
@@ -105,7 +100,7 @@ td{
       <td>26.0</td>
       <td>0</td>
       <td>0</td>
-      <td>STON/O2. 3101282</td>
+      <td style="width: 100%;">STON/O2. 3101282</td>
       <td>7.9250</td>
       <td>NaN</td>
       <td>S</td>
