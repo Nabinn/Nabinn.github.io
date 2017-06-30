@@ -44,7 +44,15 @@ Embarked        Port of Embarkation
 
 Here are some samples extracted from the dataset:
 <div class="container">
-<table class="table table-striped" style="display: block; overflow-x: auto; width: 100%;">
+<style type="text/css">
+	
+	table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+</style>
+<table>
   <thead>
     <tr>
       <th>PassengerId</th>
