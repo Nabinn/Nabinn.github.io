@@ -19,8 +19,9 @@ Git is a version control system (VCS) for tracking changes in files and coordina
 ## Some terminologies
 
 ### Fork and Pull request
-	Forking = creating your own personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project.
-	Steps for submitting pull requests: 
+Forking = creating your own personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project.
+
+Steps for submitting pull requests: 
 	1. Fork a github repository to your own github account.
 	2. Clone the forked repository to your local computer.
 	3. Make changes in the local repository and commit them.
@@ -28,13 +29,14 @@ Git is a version control system (VCS) for tracking changes in files and coordina
 	5. Make a pull request through github account.
 
 ## Commands
-
-1. cloning a repository
-```
-git clone <url>
+ 
+### cloning a repository
 
 ```
-	- makes a copy of the remote repository on your computer
+git clone [url]
+
+```
+- makes a copy of the remote repository on your computer
 
 {% highlight java linenos %}
 public class HelloWorld{
