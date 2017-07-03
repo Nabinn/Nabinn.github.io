@@ -29,7 +29,7 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Resources: 
-      - Git basics: "https://nabinn.github.io/2017-06-25-index"
+      - Git basics: "https://nabinn.github.io/2017-06-25-git-basics"
   About: 
       - About me: "aboutme"
       - Contact me: "contactme"

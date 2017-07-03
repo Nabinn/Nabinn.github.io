@@ -16,6 +16,11 @@ import pandas as pd
 #read csv file using read_csv() method
 df = pd.read_csv('path/to/csvfile.csv');
 
+```
+
+Birds eye view of data
+
+```python
 
 df #displays the dataframe
 
@@ -39,8 +44,6 @@ df.corr() # provides correlation between the fields
 df.cov() #provides covariance between the fields
 
 df.count() #returns count of non-NA/null observations for each column
-
-
 
 ```
 
