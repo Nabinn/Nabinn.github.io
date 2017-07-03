@@ -34,8 +34,8 @@ Steps for submitting pull requests:
 ## Commands
 
 ### 1. init
--The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
--This command creates an empty Git repository - basically a .git directory with subdirectories for objects , refs/heads , refs/tags , and template files. An initial HEAD file that references the HEAD of the master branch is also created. ... Running git init in an existing repository is safe.
+- The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+- This command creates an empty Git repository - basically a .git directory with subdirectories for objects , refs/heads , refs/tags , and template files. An initial HEAD file that references the HEAD of the master branch is also created. Running git init in an existing repository is safe.
 
 To transform the current directory into a git repository, use the following command:
 ```
