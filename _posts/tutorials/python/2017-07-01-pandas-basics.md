@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Pandas cheat sheet
+title: pandas cheat sheet
 image: 
 tags: [python, pandas]
 ---
 
-pandas is a powerful and flexible open source data analysis / manipulation tool for python programming language.
+pandas is a powerful and flexible open source tool for data analysis and manipulain in python.
 
 ## Reading a CSV file
 
@@ -21,18 +21,25 @@ df #displays the dataframe
 
 df.info() #prints information about the data
 
+df.columns #returns an array of column names
+
 df.head() #returns first 5 enteries of data
 df.tail() #returns last 5 enteries of data
 
 df.head(n) #returns first n enteries of the data
 df.tail(n) #returns last n enteries of the data
 
-#train_df.describe() #describe the statistical information of the data
-#train_df.corr() #calculate correlation between the fields
-#train_df.cov() #covariance
-#train_df.sample(100) # gives a random number of samples of data
-#train_df.count() #returns count of non-NA/null observations
-#train_df.columns #returns array of column names
+df.sample() #returns one random entry from the data
+df.sample(n) # returns n random samples from the data
+
+df.describe() #provides the statistical information of the data
+
+df.corr() # provides correlation between the fields
+
+df.cov() #provides covariance between the fields
+
+df.count() #returns count of non-NA/null observations for each column
+
 
 
 ```
