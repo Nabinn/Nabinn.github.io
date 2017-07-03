@@ -31,12 +31,12 @@ Steps for submitting pull requests:
 
 ## Commands
  
-### cloning a repository
-
+### clone
+- makes a copy of the remote repository on your computer
 ```
 git clone [url]
 ```
-- makes a copy of the remote repository on your computer
+
 
 {% highlight java linenos %}
 public class HelloWorld{
