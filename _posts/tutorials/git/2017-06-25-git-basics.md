@@ -49,7 +49,7 @@ git init [directory]
 
 
 ### 2. clone
-- cloning an existing repository.Internally, git clone first calls git init to create a new repository. It then copies the data from the existing repository.
+- This command is used for cloning an existing repository.Internally, git clone first calls git init to create a new repository. It then copies the data from the existing repository.
 ```
 git clone [repo_url]
 ```
