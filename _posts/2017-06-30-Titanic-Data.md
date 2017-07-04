@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Classifier to estimate the surviving chance of Titanic passengers
+title: Estimating the Survival chance of Titanic passengers
 image: /img/hello_world.jpeg
 tags: [machine learing, classification]
 ---
