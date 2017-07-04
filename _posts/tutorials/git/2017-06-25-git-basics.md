@@ -39,18 +39,18 @@ Steps for submitting pull requests:
 - This command creates an empty Git repository - basically a .git directory with subdirectories for objects , refs/heads , refs/tags , and template files. An initial HEAD file that references the HEAD of the master branch is also created. Running git init in an existing repository is safe.
 
  To transform the current directory into a git repository, use the following command:
-```
+```sh
 git init
 ```
  To create a git repository in a specified directory, use the following command:
-```
+```sh
 git init [directory]
 ```
 
 
 ### 2. clone
 - cloning an existing repository.Internally, git clone first calls git init to create a new repository. It then copies the data from the existing repository.
-```
+```sh
 git clone [repo_url]
 ```
 
