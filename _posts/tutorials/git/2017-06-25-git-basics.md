@@ -26,11 +26,11 @@ A directory or storage space where your projects can live.  It can be a local fo
 Forking = creating your own personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project.
 
 Steps for submitting pull requests: 
-	<br>1. Fork a github repository to your own github account.
-	<br>2. Clone the forked repository to your local computer.
-	<br>3. Make changes in the local repository and commit them.
-	<br>4. Push the local repository to your github account.
-	<br>5. Make a pull request through github account.
+- Fork a github repository to your own github account.
+- Clone the forked repository to your local computer.
+- Make changes in the local repository and commit them.
+- Push the local repository to your github account.
+- Make a pull request through github account.
 
 ## Commands
 ---
