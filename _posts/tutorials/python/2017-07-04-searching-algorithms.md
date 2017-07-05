@@ -52,6 +52,29 @@ output:
 (False, 10)
 
 ```
+
+**Video References:**
+<iframe
+            width="400"
+            height="300"
+            src="https://www.youtube.com/embed/vZWfKBdSgXI"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+
+---
+
+<iframe
+            width="400"
+            height="300"
+            src="https://www.youtube.com/embed/CX2CYIJLwfg"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+
+
+
+
 ## 2. Binary Search
 The binary search is used to find an item in an ordered list.
 To search for an item, look in the middle of the list and see if the 
