@@ -56,8 +56,6 @@ output:
 **Video References:**
 <div class="video-container">
 <iframe
-            width="400"
-            height="300"
             src="https://www.youtube.com/embed/vZWfKBdSgXI"
             frameborder="0"
             allowfullscreen
@@ -66,8 +64,7 @@ output:
 ---
 <div class="video-container">
 <iframe
-            width="400"
-            height="300"
+          
             src="https://www.youtube.com/embed/CX2CYIJLwfg"
             frameborder="0"
             allowfullscreen
@@ -145,8 +142,8 @@ Output:
 **Video references:**
 <div class="video-container">
 <iframe
-            width="400"
-            height="300"
+            
+            
             src="https://www.youtube.com/embed/5xlIPT1FRcA"
             frameborder="0"
             allowfullscreen
