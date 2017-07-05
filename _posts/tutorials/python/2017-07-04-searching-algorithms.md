@@ -54,6 +54,7 @@ output:
 ```
 
 **Video References:**
+<div class="video-container">
 <iframe
             width="400"
             height="300"
@@ -61,9 +62,9 @@ output:
             frameborder="0"
             allowfullscreen
         ></iframe>
-
+</div>
 ---
-
+<div class="video-container">
 <iframe
             width="400"
             height="300"
@@ -72,7 +73,7 @@ output:
             allowfullscreen
         ></iframe>
 
-
+</div>
 
 
 ## 2. Binary Search
@@ -142,7 +143,7 @@ Output:
 ```
 
 **Video references:**
-
+<div class="video-container">
 <iframe
             width="400"
             height="300"
@@ -150,12 +151,11 @@ Output:
             frameborder="0"
             allowfullscreen
         ></iframe>
-
+</div>
 ---
 <div class="video-container">
 <iframe
-            width="400"
-            height="300"
+            
             src="https://www.youtube.com/embed/D5SrAga1pno"
             frameborder="0"
             allowfullscreen
