@@ -7,7 +7,8 @@ tags: [python, search, algorithms]
 
 ## 1. Linear or sequential search
 The linear search is used to find an item in a list. The items do not have to be in order. To search for an item, start at the beginning of the list and continue searching until either the end of the list is reached or the item is found.
----
+
+
 ```python
 
 #Given a list called 'list_of_items' and looking for an item called 'item'
@@ -42,8 +43,8 @@ for item in my_items:
 
     
 ```
+
 output:
----
 ```
 (True, 1)
 (False, 10)
@@ -107,8 +108,8 @@ for item in my_items:
         print("{} is not found".format(item))
 
 ```
+
 Output:
----
 ```
 11 is not found
 2 is found
@@ -116,3 +117,7 @@ Output:
 156 is not found
 
 ```
+
+Video references:
+
+<iframe width="640" height="480" src="https://youtu.be/5xlIPT1FRcA" frameborder="0" allowfullscreen></iframe>
