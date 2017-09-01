@@ -23,15 +23,15 @@ description: site currently under construction!
 
 # List of links in the navigation bar
 navbar-links:
-  Search: "search"  
-  Useful Links:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+#  Search: "search"  
+#  Useful Links:
+ #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  #  - Learn markdown: "http://www.markdowntutorial.com/"
+   # - GitHub Pages: "https://pages.github.com/"
   Resources: 
       - Git basics: "https://nabinn.github.io/2017-06-25-git-basics"
   About: 
-      - About me: "aboutme"
+    #  - About me: "aboutme"
       - Contact me: "contactme"
 
 
